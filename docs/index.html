@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <!-- 고정 헤더영역 -->
+      <!-- 고정헤더영역 -->
       <header class="header-area">
         <div class="place-header" role="banner ">
           <h1 class="title">
@@ -25,7 +25,7 @@
             <a href="#" class="tab" role="tab">
               <span class="txt">홈</span>
             </a>
-            <a href="#" class="tab is--active" role="tab">
+            <a href="#" class="tab is-active" role="tab">
               <span class="txt">메뉴</span>
             </a>
             <a href="#" class="tab" role="tab">
@@ -43,6 +43,61 @@
           </div>
         </div>
       </header>
+      <!-- 고정헤더영역 끝 -->
+
+      <!-- 주문정보영역  -->
+      <div class="order-info-area">
+        <div class="common-inner">
+          <div class="info-main">
+            <div class="info-main-title">
+              <div class="title">
+                <svg viewBox="0 0 18 18" class="ico-n-logo">
+                  <path
+                    fill-rule="evenodd"
+                    fill="currentColor"
+                    d="M0 0h16v16H0V0zm6.63 7.78l2.75 3.53h2.3V4.7h-2.3v3.53L6.63 4.7H4.34v6.62h2.3V7.78z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- 주문분류 -->
+            <div class="tab-switch-box" role="tablist">
+              <a href="#" class="tab-switch is-active" role="tab"
+                >🛍&nbsp;&nbsp;포장<img
+                  src="../assets/images/ico-check.svg"
+                  alt=""
+                  class="ico-check"
+                  aria-hidden="true"
+              /></a>
+              <a href="#" class="tab-switch" role="tab"
+                >🍽&nbsp;&nbsp;매장<img
+                  src="../assets/images/ico-check.svg"
+                  alt=""
+                  class="ico-check"
+                  aria-hidden="true"
+              /></a>
+              <a href="#" class="tab-switch" role="tab"
+                >🛵&nbsp;&nbsp;배달<img
+                  src="../assets/images/ico-check.svg"
+                  alt=""
+                  class="ico-check"
+                  aria-hidden="true"
+              /></a>
+            </div>
+
+            <div class="info-main-notice">
+              가지고 가실 수 있게 포장해 드립니다.
+            </div>
+
+            <div class="info-main-notice alert hidden">
+              지금은 주문을 받을 수 없습니다.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 주문정보영역 끝 -->
     </div>
 
     <div class="dimmed-layer hidden"></div>

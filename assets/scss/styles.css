@@ -139,6 +139,12 @@ textarea::-webkit-outer-spin-button {
   text-indent: -9999px;
 }
 
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
 .dimmed-layer {
   position: fixed;
   top: 0;

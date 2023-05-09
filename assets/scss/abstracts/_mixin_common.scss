@@ -1,0 +1,9 @@
+// 밴딩되지 않도록 오른쪽으로 쭉 이어지게 해두지만 영역이
+// 넘어가는건 hidden으로 감추고 영역이 넘어가는게 텍스트라면
+// ellipse(말줄임) 처리를 함
+
+@mixin ellipse {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

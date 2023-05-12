@@ -2,7 +2,7 @@
 // 넘어가는건 hidden으로 감추고 영역이 넘어가는게 텍스트라면
 // ellipse(말줄임) 처리를 함
 
-@mixin ellipse {
+@mixin ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

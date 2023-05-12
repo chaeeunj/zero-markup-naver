@@ -54,9 +54,10 @@
           "
         ></div>
 
-        <!-- 메뉴 주문 영역 -->
+        <!-- 메뉴 주문정보 영역 -->
         <div class="menu-info-area">
           <div class="common-inner">
+            <!-- 메뉴 정보영역 -->
             <p class="menu-name-group">
               <span class="menu-name">메뉴이름</span>
               <span class="badge-popular">인기</span>
@@ -79,6 +80,46 @@
               메뉴에 대한 간단한 설명이 적혀있습니다 메뉴에 대한 간단한 설명이
               적혀있습니다
             </p>
+            <!-- 메뉴 정보영역 끝 -->
+
+            <!-- 메뉴 주문영역 -->
+            <div class="order-type-area">
+              <div class="type-select">
+                <div class="title">
+                  <svg viewBox="0 0 18 18" class="ico-n-logo">
+                    <path
+                      fill-rule="evenodd"
+                      fill="currentColor"
+                      d="M0 0h16v16H0V0zm6.63 7.78l2.75 3.53h2.3V4.7h-2.3v3.53L6.63 4.7H4.34v6.62h2.3V7.78z"
+                    ></path>
+                  </svg>
+                  주문
+                </div>
+                <div class="tab-switch-box" role="tablist">
+                  <a href="#" class="tab-switch is-active" role="tab"
+                    >🛍&nbsp;&nbsp;포장</a
+                  >
+                  <a href="#" class="tab-switch" role="tab"
+                    >🍽&nbsp;&nbsp;매장</a
+                  >
+                </div>
+              </div>
+
+              <div class="type-amount">
+                <div class="title">수량</div>
+                <div class="amount-select">
+                  <button class="btn-minus" aria-label="빼기" disabled></button>
+                  <span class="amount disabled">1</span>
+                  <button class="btn-plus" aria-label="더하기"></button>
+                </div>
+              </div>
+
+              <button class="btn-order">1개 담기 9,999원</button>
+              <!-- <button class="btn-order" disabled>
+                지금 주문 가능한 시간이 아닙니다.
+              </button> -->
+            </div>
+            <!-- 메뉴 주문영역 끝 -->
           </div>
         </div>
       </div>
